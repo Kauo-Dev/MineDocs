@@ -9,6 +9,7 @@ on:
   # Manually trigger deployment
   workflow_dispatch:
 
+# 手动补充的权限设置，因为 GitHub Actions 的默认 GITHUB_TOKEN 没有权限向仓库推送代码 =(
 permissions:
   contents: write
   pages: read
