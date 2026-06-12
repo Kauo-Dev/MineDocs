@@ -9,6 +9,10 @@ on:
   # Manually trigger deployment
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: read
+
 jobs:
   docs:
     runs-on: ubuntu-latest
