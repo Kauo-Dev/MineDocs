@@ -58,11 +58,10 @@ const Doc = defineCollection({
   // 手动配置侧边栏结构
   sidebar: [
     { text: '开始阅读吧', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
-    { text: '整合包', prefix: 'modpacks', items: 'auto', collapsed: false },
+    { text: '整合包', prefix: 'modpacks', items: 'auto', icon: 'stash:pack-solid', collapsed: false },
     { text: '工具与实用软件', prefix: 'tools', items: 'auto', collapsed: false },
     { text: '服务器收录', prefix: 'servers', items: 'auto', collapsed: false },
     { text: '社区与群聊', prefix: 'communities', items: 'auto', collapsed: false },
-    { text: '知识库/百科', prefix: 'wiki', items: 'auto', collapsed: false },
   ],
 })
 
