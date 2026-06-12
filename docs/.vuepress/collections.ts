@@ -56,9 +56,15 @@ const Doc = defineCollection({
   // 文档标题，它将用于在页面的面包屑导航中显示
   title: '文档',
   // 手动配置侧边栏结构
-  sidebar: 'auto',
-  // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
+  sidebar: [
+    { text: '开始阅读吧', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
+    { text: '整合包', prefix: 'modpacks', items: 'auto', collapsed: false },
+    { text: '模组/插件', prefix: 'mods', items: 'auto', collapsed: false },
+    { text: '工具与实用软件', prefix: 'tools', items: 'auto', collapsed: false },
+    { text: '服务器收录', prefix: 'servers', items: 'auto', collapsed: false },
+    { text: '社区与群聊', prefix: 'communities', items: 'auto', collapsed: false },
+    { text: '知识库/百科', prefix: 'wiki', items: 'auto', collapsed: false },
+  ],
 })
 
 /**

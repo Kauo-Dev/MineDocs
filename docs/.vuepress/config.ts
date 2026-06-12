@@ -34,7 +34,7 @@ export default defineUserConfig({
     /* 文档仓库配置，用于 editLink */
     docsRepo: 'https://github.com/Kauo-Dev/MineDocs',
     docsDir: 'docs',
-    docsBranch: '',
+    docsBranch: 'main',
 
     /* 页内信息 */
     editLink: true,
