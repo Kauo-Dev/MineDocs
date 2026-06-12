@@ -1,0 +1,7 @@
+---
+title: foo
+createTime: 2026/06/12 02:33:45
+permalink: /main/vy2meyeb/
+---
+
+[bar](./bar.md)
