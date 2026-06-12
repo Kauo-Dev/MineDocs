@@ -32,15 +32,23 @@ export default defineUserConfig({
     // hostname: 'https://your_site_url',
 
     /* 文档仓库配置，用于 editLink */
-    docsRepo: '',
+    docsRepo: 'https://github.com/Kauo-Dev/MineDocs',
     docsDir: 'docs',
     docsBranch: '',
 
     /* 页内信息 */
     editLink: true,
     lastUpdated: true,
-    contributors: true,
-    changelog: false,
+    contributors: {
+      mode: 'block',
+    },
+    changelog: {
+      maxCount: 10,
+      repoUrl: 'https://github.com/Kauo-Dev/MineDocs',
+      commitUrlPattern: ':repo/commit/:hash',
+      issueUrlPattern: ':repo/issues/:issue',
+      tagUrlPattern: ':repo/releases/tag/:tag'
+    },
 
     plugins: { git: true },
 
