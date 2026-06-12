@@ -3,9 +3,9 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: hero
+    type: banner
     full: true
-    effect: tint-plate
+    banner: https://api.yppp.net/api.php
     hero:
       name: MineDocs
       tagline: MC资源收录站

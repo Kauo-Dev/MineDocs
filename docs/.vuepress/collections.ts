@@ -59,7 +59,6 @@ const Doc = defineCollection({
   sidebar: [
     { text: '开始阅读吧', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
     { text: '整合包', prefix: 'modpacks', items: 'auto', collapsed: false },
-    { text: '模组/插件', prefix: 'mods', items: 'auto', collapsed: false },
     { text: '工具与实用软件', prefix: 'tools', items: 'auto', collapsed: false },
     { text: '服务器收录', prefix: 'servers', items: 'auto', collapsed: false },
     { text: '社区与群聊', prefix: 'communities', items: 'auto', collapsed: false },
