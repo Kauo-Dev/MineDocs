@@ -1,7 +1,7 @@
 ---
 title: 免责声明
 createTime: 2026/06/12 21:41:13
-permalink: /guide/disclaimer/
+permalink: /guide/start/disclaimer/
 icon: mingcute:paper-fill
 ---
 1. 本网站为 Minecraft 资源信息收录平台，所有展示的资源（包括但不限于整合包、工具、服务器、资源包、光影包、数据包、群聊信息等）均由第三方创作者或运营者提供，本站仅作信息整理与索引，不对任何资源的合法性、安全性、完整性、可用性作任何形式的担保。

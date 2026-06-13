@@ -1,46 +1,50 @@
 ---
 title: 站点介绍
 createTime: 2026/06/12 02:33:45
-permalink: /guide/
+permalink: /guide/start/
 icon: icon-park-solid:hi
 ---
 ## 欢迎来到 MineDocs！👋
 
 本站是一个==由社区驱动==的 Minecraft 中文资源收录站（即**资源导航与收录平台**），致力于整合优质资源、降低信息获取门槛。
 
-本站资源主要涵盖了整合包、模组、插件、工具、服务器、社区群组等多种类型的资源，目前还在持续开发和扩建中。
+目前还在持续开发和扩建中……
 
 如果你有任何意见或建议，或是发现了一些问题或BUG，可以[在Github上提交反馈](https://github.com/Kauo-Dev/MineDocs/issues)。
  
 ::: warning
-我们不托管任何文件，只做**信息的整合与索引**。如果需要相关资源文件，请自行前往下载，对于责任分担，详见[免责声明](./disclaimer.md)
+1. 我们不托管任何文件，只做**信息的整合与索引**。如果需要相关资源文件，请自行前往下载，对于责任分担，详见[免责声明](./disclaimer.md)
+2. 本站不作任何重复劳动，尽量弥补一些资源网站（如BBSMC、MC百科）所缺失的方面
 :::
 
-## 收录范围
+## 网站功能介绍
+
+### 收录资源
 
 目前收录了以下范围的Minecraft资源：
 
-:::: card-grid
-
-::: card title='整合包'
-
-收录主流整合包平台（CurseForge、Modrinth、MCBBS 等）上的优质整合包，标注加载器类型、适配版本、难度风格、整合包定位等信息，帮助你快速找到适合自己的游玩方案。
-
-:::
-
-::: card title='工具'
-涵盖启动器、地图编辑器、存档工具、皮肤/材质相关工具、服务端管理工具等各类实用软件，附带简介与官方下载渠道链接。
-:::
-
-::: card title='整合包服务器'
-收录公开招募玩家的 Minecraft 整合包服务器，标注服务器所使用的整合包、是否正版验证、联系方式等关键信息。
-:::
-
-::: card title='Minecraft社区群聊'
-收录活跃的 Minecraft 相关 QQ 群、Discord 服务器等社区，包括综合交流群、版本专项群、整合包交流群、模组开发群等分类。
-:::
-
-::::
+<CardGrid>
+  <ImageCard
+    image="guide/start/1.jpg"
+    title="整合包"
+    description="收录主流整合包平台（CurseForge、Modrinth、MC百科等）上的优质整合包，帮助你快速找到适合自己的游玩方案。"
+  />
+  <ImageCard
+    image="guide/start/2.jpg"
+    title="工具"
+    description="涵盖启动器、地图编辑器、存档工具、皮肤/材质相关工具、服务端管理工具等各类实用软件，附带简介与官方下载渠道链接。"
+  />
+  <ImageCard
+    image="guide/start/3.png"
+    title="整合包服务器"
+    description="收录公开招募玩家的 Minecraft 整合包服务器，标注服务器所使用的整合包、是否正版验证、联系方式等关键信息。"
+  />
+  <ImageCard
+    image="guide/start/4.png"
+    title="社区群聊"
+    description="收录活跃的 Minecraft 相关 QQ 群、Discord 服务器等社区，包括综合交流群、版本专项群、整合包交流群、模组开发群等分类。"
+  />
+</CardGrid>
 
 **更多（规划中）**
 
@@ -53,9 +57,7 @@ icon: icon-park-solid:hi
 | 开发资源 | 模组开发文档、API 参考、脚手架工具 |
 | 资讯 | Minecraft 版本更新、社区动态博文 |
 
-## 收录标准
-
-收录标准目前还暂时不明确，但是我们会优先收录满足以下条件的资源：
+至于收录标准，目前还暂时不明确，但是我们会优先收录满足以下条件的资源：
 
 - ✅ 有明确的**官方主页或可信来源**（GitHub、CurseForge、Modrinth、官方网站等）
 - ✅ 资源仍在维护或具有历史参考价值

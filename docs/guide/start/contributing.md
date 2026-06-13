@@ -1,7 +1,7 @@
 ---
 title: 贡献须知
 createTime: 2026/06/12 21:23:36
-permalink: /guide/contributing/
+permalink: /guide/start/contributing/
 icon: material-symbols:key
 ---
 1. 本指南面向所有希望向本站提交资源、修正信息或参与维护的社区成员，无论技术背景如何均可参与。
