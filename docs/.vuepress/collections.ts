@@ -54,7 +54,7 @@ const Doc = defineCollection({
   // 所以请确保  markdown 文件的 permalink 都以 `linkPrefix` 开头
   linkPrefix: '/guide',
   // 文档标题，它将用于在页面的面包屑导航中显示
-  title: '文档',
+  title: '资源',
   // 手动配置侧边栏结构
   sidebar: [
     { text: '开始阅读吧', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
