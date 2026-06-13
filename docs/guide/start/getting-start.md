@@ -12,8 +12,9 @@ icon: icon-park-solid:hi
 
 如果你有任何意见或建议，或是发现了一些问题或BUG，可以[在Github上提交反馈](https://github.com/Kauo-Dev/MineDocs/issues)。
  
-> [!WARNING]
-> 我们不托管任何文件，只做**信息的整合与索引**。如果需要相关资源文件，请自行前往下载，对于责任分担，详见[免责声明](./disclaimer.md)
+::: warning
+我们不托管任何文件，只做**信息的整合与索引**。如果需要相关资源文件，请自行前往下载，对于责任分担，详见[免责声明](./disclaimer.md)
+:::
 
 ## 收录范围
 
