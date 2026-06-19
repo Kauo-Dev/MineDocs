@@ -57,11 +57,8 @@ const Doc = defineCollection({
   title: '资源',
   // 手动配置侧边栏结构
   sidebar: [
-    { text: '开始阅读吧', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
-    { text: '整合包', prefix: 'modpacks', items: 'auto', icon: 'solar:box-bold', collapsed: false },
-    { text: '工具与实用软件', prefix: 'tools', items: 'auto', collapsed: false },
-    { text: '服务器收录', prefix: 'servers', items: 'auto', collapsed: false },
-    { text: '社区与群聊', prefix: 'communities', items: 'auto', collapsed: false },
+    { text: '欢迎阅读', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
+    { text: '网络', prefix: 'networking', items: 'auto', icon: 'mdi:internet', collapsed: false },
   ],
 })
 

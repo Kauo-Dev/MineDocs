@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: 快速开始
-          link: /guide/start/
+          link: /guide/start/main/
         -
           theme: brand
           text: 博客文章
