@@ -3,13 +3,13 @@ pageLayout: home
 externalLinkIcon: false
 config:
   -
-    type: doc-hero
+    type: banner
+    banner: https://api.yppp.net/api.php
     full: true
     hero:
       name: MineDocs
-      tagline: 一个简约高效的Minecraft(Java版)干货资源集合网站
-      text: MC资源收录站
-      image: /favicon.png
+      tagline: 技术文档/干货资源
+      text: 偏专业向的技术性介绍文档，小白勿入，CPU烧坏后果自负QwQ
       actions:
         -
           theme: brand

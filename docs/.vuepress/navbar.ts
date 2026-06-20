@@ -7,6 +7,6 @@
 import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
-  { text: '资源', link: '/guide/start/', activeMatch: '/guide/', icon: 'material-symbols:book' },
+  { text: '文档', link: '/guide/start/main/', activeMatch: '/guide/', icon: 'material-symbols:book' },
   { text: '博客', link: '/blog/', activeMatch: '/blog/', icon: 'mdi:pen' },
 ])
