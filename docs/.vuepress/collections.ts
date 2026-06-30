@@ -58,7 +58,7 @@ const Doc = defineCollection({
   // 手动配置侧边栏结构
   sidebar: [
     { text: '欢迎阅读', prefix: 'start', items: 'auto', icon: 'boxicons:light-bulb', collapsed: false },
-    { text: '网络', prefix: 'networking', items: 'auto', icon: 'mdi:internet', collapsed: false },
+    { text: '服务器', prefix: 'server', items: 'auto', icon: 'mdi:server', collapsed: false },
   ],
 })
 
